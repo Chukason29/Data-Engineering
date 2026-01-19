@@ -10,5 +10,7 @@ print(fruits)
 
 #to sort in descending order, we do .sort(reverse = True)
 
+#Or you do .reverse()
+
 fruits.sort(reverse=True)
 print(fruits) #reverses the sort.
