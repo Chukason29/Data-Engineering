@@ -10,3 +10,23 @@ for i in range(len(fruits)):
 
 for i in fruits:
     print(f"\n{i}")  # Accessing each item directly
+
+#While loop is used when the number of iterations is not known, it continues until a certain condition is met.
+
+newFruits = []
+def removeVowels(myString):
+    vowels = ["a", "e", "i", "o", "u"]
+    for i in vowels:
+        if i in myString:
+            newString = myString.replace(i,"")
+
+
+
+    return newString
+
+for fruit in fruits:
+    removeVowels(fruit)
+
+
+
+print(fruits)
