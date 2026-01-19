@@ -19,3 +19,8 @@ while count < len(fruits):
     print(f"I love: {fruits[count]}")
     count = count + 1
 
+#List Comprehension
+
+#using list comprehension, list all fruits with four or less letters 
+fourFruits = [fruit for fruit in fruits if len(fruit) <= 4]
+print(fourFruits) #outputs ["date", "kiwi"]
