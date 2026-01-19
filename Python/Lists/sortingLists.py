@@ -4,7 +4,7 @@
 #.sort() sorts in ascending order
 #.sort() sort
 
-fruits = ["banana", "apple", "cherry", "date", "orange","kiwi", "mango", 4, 20]
+fruits = ["banana", "apple", "cherry", "date", "orange","kiwi", "mango"]
 fruits.sort()
 print(fruits)
 
