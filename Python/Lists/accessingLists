@@ -1,0 +1,29 @@
+#Lists are: 
+
+#ordered
+#changeable
+#allow duplicate values
+#List items are indexed, the first item has index [0], the second item has index [1] etc.
+#Can contain different data types
+
+
+
+fruits = ["banana", "apple", "cherry", "date", "orange","kiwi", "mango", "cherry", "apple"]
+
+# Accessing elements using positive indexing
+print(fruits[0])  # Output: banana
+print(fruits[3])  # Output: date
+print(fruits[-1]) # Output: apple (last item)
+
+
+#Checking if item exists in list
+myFruit = input("Enter a fruit name: ")
+if myFruit.lower() in fruits:
+    print(f"Yes, '{myFruit}' is in the fruits list")
+else:
+    print(f"'{myFruit}' is not in the fruits list")
+
+#Unpacking a list
+
+fruits1, fruits2, fruits3, fruits4, fruits5, fruits6, fruits7, fruits8, fruits9 = fruits
+print(fruits1)  # Output: banana
