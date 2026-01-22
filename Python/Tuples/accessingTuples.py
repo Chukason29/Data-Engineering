@@ -1,6 +1,7 @@
 #Tuples are ordered hence, they are indexed
 #They are unchangeable, You can't remove or add an item after the tuple has been created
 #tuple can contain different data types
+#It can duplicate values
 
 #Creating Tuples
 
@@ -21,3 +22,23 @@ print(itemTuple)
 
 for x in itemTuple:
     print(x, end=", ")
+
+fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(fruits[2:5])
+
+#.count() get the number of times a particular item occur in the tuple
+print(fruits.count("cherry"))
+
+#.index() gets the position of a specified item
+print(fruits.index("mango"))
+
+i = 0
+for i in range(len(fruits)):
+    if i == 0:
+        continue
+    if i%2 != 0:
+        print (fruits[i], end=", ")
+    else:
+        continue
+
+#A dice game
