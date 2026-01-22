@@ -1,0 +1,1 @@
+#same as set just that, element cannot be added or removed. i.e. totally frozen

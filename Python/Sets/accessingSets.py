@@ -1,4 +1,6 @@
 #Sets unordered, unchangeable*, and unindexed. and can't hold duplicate items
+#You can add new and remove items
+
 
 
 fruits = {"apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"}
