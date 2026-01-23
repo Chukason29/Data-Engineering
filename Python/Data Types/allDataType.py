@@ -27,6 +27,7 @@ person = {
 #Set ==> Contains only unique values
 unique_numbers = {1, 2, 3, 4, 3, 5}
 unique_person = {"Tommyzan", "Mordy", "Wisdom","Great", "Mordy"}
+print(type(unique_person))
 
 print(unique_person)
 
