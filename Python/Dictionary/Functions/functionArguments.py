@@ -39,3 +39,41 @@ def sumAll (*numbers):
 sumAll(1,2,3,4,5)
 sumAll(1,2,3,4,5,6,7,8,9)
 sumAll(1,2,3,4,5,6,7,8,9,8,7,6,5,4)
+
+#using *args to find maximum value
+
+def maxNumber(*numbers):
+    #make sure there is at least one number
+    if len(numbers) == 0:
+        print("please insert number(s)")
+    max_num = numbers[0]
+    for n in numbers:
+        if n > max_num:
+            max_num = n
+    return max_num
+
+print (maxNumber(3,7,4,9,45,11,1,24,50))
+#while *args are used in unpacking list in a function, **kwargs are used for dictionaries
+
+#**kwargs are keyword arguments
+
+def Students(students):
+    for x,y in students.items():
+        print(f"\n{x}")
+        for i, m in y.items():
+            print(f"{i}: {m}")
+
+myStudents = {
+    "ebuka" : {
+        "class": "JSS1",
+        "age" : 14,
+        "height": 1.67
+    },
+
+    "Wisdom" : {
+        "class": "JSS2",
+        "age" : 16,
+        "height": 1.72
+    }
+}
+Students(myStudents)
