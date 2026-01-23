@@ -77,3 +77,9 @@ myStudents = {
     }
 }
 Students(myStudents)
+
+# When you want to mix regular params, *args and **kwargs The order must be:
+
+# 1) regular parameters
+# 2) *args
+# 3) **kwargs
