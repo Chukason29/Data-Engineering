@@ -95,6 +95,7 @@ A function that sleeps for a few seconds
 📌 Focus: Using time module + decorator syntax
 """
 def time_it(func):
+    @functools.wraps
     def wrapper(myList):
         start_time = time.time()
         func(myList)
