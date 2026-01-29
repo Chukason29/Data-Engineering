@@ -15,10 +15,14 @@ finally:
     pass
 
 try:
-    number = input("enter a number")
+    number = int(input("enter a number:"))
+    print(3/number)
 except ZeroDivisionError:
     print("you cant divide by zero")
 except ValueError:
-    print("print only numbers please")
+    print("input only numbers please")
 finally:
+    #this runs regardless of the output from try..except
     print("shut the program")
+
+#NB ==> There can be a try...except block within a try....except
