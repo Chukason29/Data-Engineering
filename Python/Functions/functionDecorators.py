@@ -61,6 +61,7 @@ make_payment()
 """
 is_logged_in = False
 def login_required(func):
+    @functools.wraps
     def wrapper():
         if is_logged_in == False:
             print("Access denied. Please log in.")
