@@ -14,7 +14,7 @@ print(list(myRange)) #outputs [1, 3, 5, 7, 9]
 
 #used len() to get the length of a range
 
-print(len(myRange))
+print(len(myRange)) #outputs 5
 
 
 
